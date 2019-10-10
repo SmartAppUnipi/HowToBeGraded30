@@ -1,4 +1,11 @@
 language: python
 
+install: pip install -r requirements.txt
+
+branches:
+  only:
+  - master
+
 notifications:
-  slack: smartapp1920:tCFfe4aZc37R8PTblGVKy4d3
+  slack:
+    secure: IwgavFF3zsn7M9inHACrcC6bVOmh+/dqwvuXZoFDSss8VvHiAx71373Cnf1rOrKulHbIyR/+kX42Xz+kE6iXnNJfE7YY+88DnUXxmuxORfhi/ZshAaJG/9kajYEDzGirx5NdwgoA8IPKgqCgWGaWsZXGwAd2JoUkhebkBT4CkHRzNjRpkQ1dSeh/yy4DtdhBGYwM+iaSrPs47Ju7Wk67q1QEX3/eYVuQ2/cFDt/0TtB00cQpJ2qwKVVSj9+b58m+HymROBaudYZGJLCMMG8loZJYWJQ9BbzAne89fpayjo31VRRu5hQ/pIl/7hbfdLQ/eEya1O/8LLIPBTaL+XKeHx6mdeXVIrtCeQJ7PoA5Xu38ZNrfnOqxumripPxE1UvWO/Ho5DxX3Qpd1L2IduMWTVWkrlocL+1OI3dh78ZbrqasfJEYVvUjfMQ/6S6c31Ao5LgtT9Y6M/o5JQDjDohFaP816C3ES3VxrLU9mVC677sMNHmzWhWO1OvNNtRlvZscjm20oGKOsCa+yC0VK+miOR7AjRPpXJ6G7ORnR/+wp12IpLY724ufchwGpjQCDsJfuIUmB5WBFwk3dVKGpeeP3naKeuFZlZ4qSpzpEO8p0okjouALBEzzo9YBmKJQmAO5VwuzT0vuoq1QCrrPnOb+sR6tujDWzIpbs126SW3J3Ck=
