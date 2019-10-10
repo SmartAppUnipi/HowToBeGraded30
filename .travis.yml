@@ -1,0 +1,4 @@
+language: python
+
+notifications:
+  slack: smartapp1920:tCFfe4aZc37R8PTblGVKy4d3
